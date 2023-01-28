@@ -16,7 +16,7 @@ Pychain ledger with five transaction records
 
 3. Verify the block contents and hashes in the Streamlit dropdown menu. 
 
-The screenshot below shows the validation of selected transaction: No2 - Kimberley sent Steven $2500.
+The screenshot below shows the validation of selected transaction: No3 -  Paul sent Ella $620.
 <img src="./Screenshots/2_ValidateChain.jpg" alt="drawing" width="1200" height = "400"/> <br>
 
 4. Screenshot of terminal
