@@ -73,7 +73,6 @@ class Block:
     # @TODO
     # Rename the `data` attribute to `record`, and set the data type to `Record`
     record: Record
-
     creator_id: int
     prev_hash: str = "0"
     timestamp: str = datetime.datetime.utcnow().strftime("%H:%M:%S")
@@ -193,9 +192,9 @@ if st.button("Add Block"):
     # which is set equal to a `Record` that contains the `sender`, `receiver`,
     # and `amount` values
     new_block = Block(
-        record= Record(sender = input_sender,
-                       receiver = input_receiver,
-                       amount = input_amount),
+        record= Record(sender=input_sender,
+                       receiver=input_receiver,
+                       amount=input_amount),
         creator_id=42,
         prev_hash=prev_block_hash
     )
