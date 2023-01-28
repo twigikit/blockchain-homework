@@ -14,11 +14,12 @@ Example: Michelle sent Jessie $380.00
 Pychain ledger with five transaction records
 <img src="./Screenshots/1b_Ledgers.jpg" alt="drawing" width="1500" height = "220"/> <br>
 
-3. Verify the block contents and hashes in the Streamlit dropdown menu. 
+3. Verify the block contents and hashes in the Streamlit dropdown menu. Test the blockchain validation process by using the web interface. Take a screenshot of the Streamlit application page, which should indicate the validity of the blockchain.
 
-The screenshot below shows the validation of selected transaction: No3 -  Paul sent Ella $620.
+The screenshot below shows verifying block content (Transaction No.3 -  Paul sent Ella $620) and validating the chain.
+
 <img src="./Screenshots/2_ValidateChain.jpg" alt="drawing" width="1200" height = "400"/> <br>
 
-4. Screenshot of terminal
+Screenshot of terminal
 
 <img src="./Screenshots/Screenshot_Terminal.jpg" alt="drawing" width="500" height = "300"/> <br>
